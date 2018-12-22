@@ -1,0 +1,61 @@
+/* pages/jishiben/jishiben.wxss */
+page{
+  height: 100%;
+}
+ 
+.des-image{
+  position:absolute;
+  width: 100%;
+  height: 100%;
+}
+ 
+.des-scr{
+  width: 100%;
+  height: 100%;
+}
+ 
+.des-view{
+  margin: 5%;
+  width: 90%;
+  height: 180rpx;
+  border:1px solid orange;
+}
+ 
+.des-text{
+    display: block;
+    margin:20rpx;
+    height: 80rpx;
+    overflow: hidden;
+    color:rgb(8, 8, 8);
+}
+ 
+.des-tiemText{
+  display: block;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+  height: 40rpx;
+  text-align: right;
+  
+}
+ 
+.new-btn{
+  position:absolute;
+  bottom: 200rpx;
+  right: 0rpx;
+  width: 80rpx;
+  height: 80rpx;
+  background: darkorange;
+  border-radius: 50%;
+  font-size: 48rpx;
+  line-height:80rpx;
+}
+
+.logo{
+  top:0rpx;
+  margin-left:-15rpx;
+  width:100%;
+  height:100%;
+  position:absolute;
+  opacity:0.6;
+  z-index: -1;
+  }

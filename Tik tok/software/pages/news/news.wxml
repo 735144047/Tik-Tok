@@ -1,0 +1,25 @@
+<loading hidden="{{loadingHidden}}">
+    加载中...
+</loading>
+ <text class='bigtitle'>新闻速览</text>
+<scroll-view scroll-y="true" style="height: 100%;" scroll-into-view="{{toView}}" upper-threshold="5" lower-threshold="5" bindscrolltoupper="refresh" bindscrolltolower="loadMore">
+    <block wx:for="{{renderData}}">
+        <view class="container"> 
+            <view class="title">
+                <text class="title-text">{{item.title}}</text>
+            </view>
+         <swiper indicator-dots="true" autoplay="true" interval="2000" style='height:260px'>
+            <swiper-item>
+            <image class='image' src='{{item.thumbnail_pic_s}}' bindtap='jump'></image>
+            </swiper-item>
+            <swiper-item>
+            <image class='image' src='{{item.thumbnail_pic_s02}}' bindtap='jump'></image>
+            </swiper-item>
+            <swiper-item>
+            <image class='image' src='{{item.thumbnail_pic_s03}}' bindtap='jump'></image>
+            </swiper-item>
+            </swiper>
+            <view class="source">{{item.author_name}}  {{item.date}}</view>
+        </view>
+    </block>
+</scroll-view>

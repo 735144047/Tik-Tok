@@ -1,0 +1,21 @@
+<!--pages/jishiben/jishiben.wxml-->
+<!--背景-->
+<image class="logo"
+src="https://api.superbed.cn/pic/5c096739c4ff9e2d376838f9" mode="scaleToFill"></image>
+<!--底部滚动-->
+<scroll-view class="des-scr" scroll-y="true" bindscroll="scroll">
+  <!--循环view-->
+  <block wx:for="{{desArr}}">
+    <navigator url="../NoteEdit/NoteEdit?des={{item.des}}&time={{item.time}}&image={{image}}&id={{item.id}}&revise=1">
+      <view class="des-view"  bindtap="toiletDetails" id="{{index}}">
+        <text class="des-text">{{item.des}}</text>
+        <text class="des-tiemText">{{item.time}}</text>
+      </view>
+    </navigator>
+  </block>
+</scroll-view>
+ 
+<!--添加按钮-->
+<navigator url="../logs/logs?des=&time=2017-01-09&image={{image}}&id=-1&revise=0">
+    <button class="new-btn"  bindtap="newBtnDown">+</button>
+</navigator>

@@ -1,0 +1,108 @@
+<image class="logo"
+src="https://api.superbed.cn/pic/5c0906ffc4ff9e2d376838bc" mode="scaleToFill"></image>
+<view class="main">
+ <text class='title'>点击图标查看人数</text>
+ </view>
+ <text class='title' space='ensp'>☟     ☟</text>
+ <view style="display: flex;flex-direction:column"> 
+ 
+  <view class="main">
+  <image src='/images/chaoshi.jpg' class='image' bindtap='changedata1'></image>
+  <image src='/images/zaotang.jpg' class='image' bindtap='changedata2'></image>
+  </view>
+  <text class='titl' space='ensp'>超市          澡堂</text>
+  
+
+  <view class="main">
+  <image src='/images/lifa.jpg' class='image' bindtap='changedata3'></image>
+   <image src='/images/dayin.jpg' class='image' bindtap='changedata4'></image>
+  </view>
+  <text class='titl' space='ensp'>理发           打印</text>
+
+<text decode="{{true}}">&nbsp;&nbsp;</text>
+<text decode="{{true}}">&nbsp;&nbsp;</text>
+<text decode="{{true}}">&nbsp;&nbsp;</text>
+
+ <view class='main'>
+ <view>
+ <view hidden="{{flag1?true:false}}">
+   <view class='bk'>
+ <text>当前超市的拥挤程度为</text>
+ <view wx:if="{{num>60}}">
+ <view class="main">
+ <image src='/images/red.jpg' class='color'></image>
+ <text>爆满</text></view>
+ <text>放弃吧少年！</text></view>
+ <view wx:elif="{{num>40}}">
+ <view class="main">
+ <image src='/images/yellow.jpg' class='color'></image>
+ <text>拥挤</text></view>
+ <text>请稍后再来。</text></view>
+ <view wx:else>
+ <view class="main">
+ <image src='/images/green.jpg' class='color'></image>
+ <text>稀少</text></view>
+ <text>小帅哥快来玩啊！</text></view>
+    </view> 
+ </view>
+ 
+ <view hidden="{{flag2?true:false}}">
+ <view class='bk'>当前澡堂的哲学气息
+ <view class='main'>
+ <view wx:if="{{(t+h)>50}}">较为浓厚</view>
+ <view wx:else>暂时稀薄</view>
+ </view>
+ </view>
+</view>
+
+ <view hidden="{{flag3?true:false}}">
+   <view class='bk'>
+ <text>当前发廊的拥挤程度为</text>
+ <view wx:if="{{num>6}}">
+ <view class="main">
+ <image src='/images/red.jpg' class='color'></image>
+ <text>爆满</text></view>
+ <text>放弃吧少年！</text></view>
+ <view wx:elif="{{num>4}}">
+ <view class="main">
+ <image src='/images/yellow.jpg' class='color'></image>
+ <text>拥挤</text></view>
+ <text>请稍后再来。</text></view>
+ <view wx:else>
+ <view class="main">
+ <image src='/images/green.jpg' class='color'></image>
+ <text>稀少</text></view>
+ <text>小帅哥快来玩啊！</text></view>
+    </view> 
+ </view>
+
+
+ <view hidden="{{flag4?true:false}}">
+   <view class='bk'>
+ <text>当前复印店的拥挤程度为</text>
+ <view wx:if="{{num>20}}">
+ <view class="main">
+ <image src='/images/red.jpg' class='color'></image>
+ <text>爆满</text></view>
+ <text>放弃吧少年！</text></view>
+ <view wx:elif="{{num>10}}">
+ <view class="main">
+ <image src='/images/yellow.jpg' class='color'></image>
+ <text>拥挤</text></view>
+ <text>请稍后再来。</text></view>
+ <view wx:else>
+ <view class="main">
+ <image src='/images/green.jpg' class='color'></image>
+ <text>稀少</text></view>
+ <text>小帅哥快来玩啊！</text></view>
+    </view> 
+ </view>
+
+
+
+
+
+
+</view>
+ </view>
+  </view>

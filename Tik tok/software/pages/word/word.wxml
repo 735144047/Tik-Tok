@@ -1,0 +1,20 @@
+<image class="logo"
+src="https://api.superbed.cn/pic/5c054a08c4ff9e05833a139d" mode="scaleToFill"></image>
+<view class=".share-btn">
+<button class='a2' bindtap='a1'>下一个</button>
+<button class='a2' type='primary' bindtap='btnClick'>翻译</button>
+</view>
+
+<view class="s">
+<text >{{a}}</text>
+</view>
+
+
+<view class="textView">
+  <text>{{text}}</text>
+</view>
+<view class="senView">
+  <text >{{sentext}}</text>
+</view>
+
+

@@ -1,0 +1,45 @@
+<image class="logo"
+src="https://api.superbed.cn/pic/5c095a6dc4ff9e2d385f964a" mode="scaleToFill"></image>
+<view class='asd'>
+<text class='title'>Tik TOK——你的时间,非常值钱</text>
+</view>
+
+<swiper indicator-dots='true' autoplay="true" interval="5000" >
+    <swiper-item >
+    <view class='swiperitem'>
+    <image src="/images/renshug.jpg" class='swiperiamge' bindtap='jump1'></image>
+    <text class='swipertext'>人数统计</text>
+    </view>
+    </swiper-item>
+
+     <swiper-item >
+     <view class='swiperitem'>
+        <image src="/images/dancig.jpg" class='swiperiamge' bindtap='jump2'></image>
+    <text class='swipertext'>背单词</text>
+    </view>
+    </swiper-item> 
+
+    <swiper-item >
+    <view class='swiperitem'>
+    <image src="/images/xinweng.jpg" class='swiperiamge' bindtap='jump3'></image>
+    <text class='swipertext'>新闻</text>
+    </view>
+    </swiper-item>
+
+     <swiper-item >
+    <view class='swiperitem'>
+    <image src="/images/jishibeng.jpg" class='swiperiamge' bindtap='jump4'></image>
+    <text class='swipertext'>记事本</text>
+    </view>
+    </swiper-item>
+  </swiper>
+<text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+<view class="main">
+<text class="introduction">足不出户，查看人数，路上还可看新闻</text></view>
+<view class="main">
+<text class="introduction">背单词、记要事，岂不美哉</text></view>
+  <text decode="{{true}}" space="{{true}}">&nbsp;&nbsp;</text>
+  <view class="main">
+  <text class="introduction">点击上方图标或下方导航栏快速体验吧！</text>
+  </view>
+  

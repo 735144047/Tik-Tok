@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/first/first",
+
+    
+    "pages/index/index",
+    "pages/word/word",
+    "pages/news/news",
+    "pages/jishiben/jishiben",
+    "pages/NoteEdit/NoteEdit"
+  ],
+  "tabBar": {
+    "color": "#233333",
+    "selectedColor": "#268dcd",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/first/first",
+        "text": "首页",
+        "iconPath": "images/home.jpg",
+        "selectedIconPath": "images/home1.jpg"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "北邮去哪鸭",
+        "iconPath": "images/ren.jpg",
+        "selectedIconPath": "images/ren1.jpg"
+      },
+      {
+        "pagePath": "pages/word/word",
+        "text": "单词",
+        "iconPath": "images/danci.jpg",
+        "selectedIconPath": "images/danci1.jpg"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "新闻",
+        "iconPath": "images/news1.jpg",
+        "selectedIconPath": "images/news.jpg"
+      },
+      {
+        "pagePath": "pages/jishiben/jishiben",
+        "text": "记事本",
+        "iconPath": "images/jishiben1.jpg",
+        "selectedIconPath": "images/jishiben2.jpg"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Tik tok——你的时间，非常值钱",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  }
+}

@@ -1,0 +1,49 @@
+.title{
+  font-size: 50rpx;
+  text-align: center
+}
+.asd{
+  text-align: center
+}
+
+
+.swiperitem{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+.swipertext{
+  text-align: center
+}
+.swiperimage{
+  width: 5vh;
+  margin: 1px；
+  
+}
+
+.logo{
+  top:0rpx;
+  margin-left:-15rpx;
+  width:100%;
+  height:100%;
+  position:absolute;
+  opacity:0.6;
+  z-index: -1;
+  }
+swiper {
+  width: 100%;
+  height: 600rpx;
+  
+}
+
+
+.introduction {
+  margin: 20px;
+  color: rgb(10, 63, 177);
+  font-size: 18px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
